@@ -1,0 +1,10 @@
+I:21722590
+E:ID_MM_CANDIDATE=1
+E:ID_NET_NAMING_SCHEME=v251
+E:ID_NET_DRIVER=bridge
+E:ID_NET_LINK_FILE=/usr/lib/systemd/network/99-default.link
+E:ID_NET_NAME=br-e7c87f559a8f
+E:SYSTEMD_ALIAS=/sys/subsystem/net/devices/br-e7c87f559a8f
+G:systemd
+Q:systemd
+V:1

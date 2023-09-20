@@ -1,0 +1,22 @@
+I:3545018
+E:ID_MM_CANDIDATE=1
+E:ID_NET_NAMING_SCHEME=v251
+E:ID_NET_NAME_MAC=enx2edfc6de20c6
+E:ID_NET_NAME_PATH=enp0s18
+E:ID_NET_NAME_SLOT=ens18
+E:ID_BUS=pci
+E:ID_VENDOR_ID=0x1af4
+E:ID_MODEL_ID=0x1000
+E:ID_PCI_CLASS_FROM_DATABASE=Network controller
+E:ID_PCI_SUBCLASS_FROM_DATABASE=Ethernet controller
+E:ID_VENDOR_FROM_DATABASE=Red Hat, Inc.
+E:ID_MODEL_FROM_DATABASE=Virtio network device
+E:ID_PATH=pci-0000:00:12.0
+E:ID_PATH_TAG=pci-0000_00_12_0
+E:ID_NET_DRIVER=virtio_net
+E:ID_NET_LINK_FILE=/usr/lib/systemd/network/99-default.link
+E:ID_NET_NAME=ens18
+E:SYSTEMD_ALIAS=/sys/subsystem/net/devices/ens18
+G:systemd
+Q:systemd
+V:1

@@ -1,0 +1,14 @@
+# This is a transient unit file, created programmatically via the systemd API. Do not edit.
+[Unit]
+Description=libcontainer container e724dd2b7e43e3c098c2fba1c489cd1a4ede0d560cf8f63c36800fa53eebe60b
+
+[Scope]
+Slice=system.slice
+Delegate=yes
+MemoryAccounting=yes
+CPUAccounting=yes
+IOAccounting=yes
+TasksAccounting=yes
+
+[Unit]
+DefaultDependencies=no

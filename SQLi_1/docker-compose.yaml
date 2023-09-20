@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  php-apache:
+    build: "build/php/"
+    ports:
+      - "19002:80"
+    depends_on:
+      - mysql
+    volumes:
+      - ./sqli:/var/www/html
+    # environment:
+    #   DB_HOST: mysql
+    #   DB_NAME: gamersdatabase
+    #   DB_USER: root
+    #   DB_PASSWORD: NHM2I-l3sup3rmotd3pass3!
+    restart: unless-stopped
+
+    
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "19010:3306"
+
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "Anime"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./export.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  db_data:

@@ -1,0 +1,10 @@
+I:21333506
+E:ID_MM_CANDIDATE=1
+E:ID_NET_NAMING_SCHEME=v251
+E:ID_NET_DRIVER=bridge
+E:ID_NET_LINK_FILE=/usr/lib/systemd/network/99-default.link
+E:ID_NET_NAME=docker_gwbridge
+E:SYSTEMD_ALIAS=/sys/subsystem/net/devices/docker_gwbridge
+G:systemd
+Q:systemd
+V:1
